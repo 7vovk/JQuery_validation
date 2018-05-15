@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.js"></script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Monkey clothes</h1>
+        </header>
+        <section id="center">
+            <img src="img/Macaca_nigra_self-portrait_large.jpg" alt="img" id="leftSideImg">
+            <form name="text" id="text">
+                <input type="text" placeholder="1. Chest girth (cm)" class="text">
+                <input type="text" placeholder="2. Waist girth (cm)" class="text">
+                <input type="text" placeholder="3. Hip girth (cm)" class="text">
+                <input type="text" placeholder="4. Breast Height (cm)" class="text">
+                <input type="text" placeholder="5. Forward length (cm)" class="text">
+                <input type="text" placeholder="6. Length of the product (cm)" class="text">
+                <input type="text" placeholder="7. Back length (cm)" class="text">
+                <input type="text" placeholder="8. Width spins (cm)" class="text">
+                <input type="text" placeholder="9. Shoulder width (cm)" class="text">
+                <input type="text" placeholder="10. Shoulder length (cm)" class="text">
+                <input type="text" placeholder="11. Sleew length (cm)" class="text">
+                <input type="text" placeholder="12. Arm circumference (cm)" class="text">
+                <input type="text" placeholder="13. Neck circumference (cm)" class="text">
+            </form>
+            <div id="pics">
+                <img src="img/img0.png" alt="slide" id="picsSrc">
+                <div id="keys">
+                    <div id="left" class="arrows left"></div>
+                    <div id="right" class="arrows right"></div>
+                    <div id="radio">
+                        <form name="radioForm" id="rbForm">
+                            <input type="radio" name="slide" class="radio" checked="true">
+                            <input type="radio" name="slide" class="radio">
+                            <input type="radio" name="slide" class="radio">
+                            <input type="radio" name="slide" class="radio">
+                            <input type="radio" name="slide" class="radio">
+                            <input type="radio" name="slide" class="radio">
+                            <input type="radio" name="slide" class="radio">
+                            <input type="radio" name="slide" class="radio">
+                            <input type="radio" name="slide" class="radio">
+                            <input type="radio" name="slide" class="radio">
+                            <input type="radio" name="slide" class="radio">
+                            <input type="radio" name="slide" class="radio">
+                            <input type="radio" name="slide" class="radio">
+                            <input type="radio" name="slide" class="radio">
+                            <input type="radio" name="slide" class="radio">
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <div id="desires">
+            <h3>Побажання клієнта</h3>
+            <textarea name="" id="ta" cols="130" rows="5"></textarea>
+        </div>
+        <section id="bottom">
+            <div id="bottomText">
+                <input type="text" placeholder="П.І.Б. Вашої мавпи" id="name">
+                <input type="text" placeholder="№ телефону мавпи" id="phone">
+                <input type="text" placeholder="E-mail мавпи" id="mail">
+                <input type="text" placeholder="Зріст мавпи, см" id="height">
+            </div>
+            <input type="button" value="OK" id="ok">
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

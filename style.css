@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: linear-gradient(to right, #4b79a1, #283e51);
+}
+#wrapper {
+    height: auto;
+    width: auto;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+}
+#center {
+    margin: 25px auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+#leftSideImg {
+    max-height: 360px;
+}
+#text {
+    display: inline-block;
+    margin: 0 65px;
+    max-height: 1100px;
+    position: relative;
+}
+.text {
+    display: block;
+    margin: 0 15px 10px;
+    max-height: 20px;
+    max-width: 175px;
+    text-align: left;
+    padding: 0 5px;
+    border-radius: 20px;
+    background: linear-gradient(to right, #48749a, #2b4358);
+    color: white;
+}
+#pics {
+    max-height: 362px;
+    width: 542px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+}
+#picsSrc {
+    max-height: 360px;
+    width: 540px;
+    background: linear-gradient(to right, #48749a, #2b4358);
+}
+.arrows {
+    top: 175px;
+    display: block;
+    position: absolute;
+    background: url(sprite/arrows.png) no-repeat;
+    opacity: 0.5;
+}
+.left {
+    background-position: 5px -40px;
+}
+.right {
+    background-position: -85px -40px;
+}
+#left {
+    left: 10px;
+    background-color: #ffffff50;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+#right {
+    left: 480px;
+    background-color: #ffffff50;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+#radio {
+    position: absolute;
+    top: 330px;
+    left: 102px;
+    opacity: 0.5;
+}
+#rbForm{
+    cursor: default;
+}
+#rbForm input{
+    cursor: pointer;
+    margin: 0px 3px;
+}
+#desires {
+    margin: 10px auto;
+    display: block;
+    width: 892px;
+}
+#bottom {
+    width: 900px;
+    display: flex;
+    margin: 0 auto;
+}
+#bottomText {
+    display: inline-block;
+    width: 700px;
+    margin: 10px;
+    position: relative;
+}
+#ta {
+    max-width: 900px;
+    border-radius: 20px;
+    background: linear-gradient(to right, #48749a, #2b4358);
+    color: white;
+    padding: 10px;
+}
+#name, #phone, #mail, #height {
+    display: block;
+    margin: 10px;
+    width: 485px;
+    border-radius: 20px;
+    background: linear-gradient(to right, #48749a, #2b4358);
+    color: white;
+    padding: 5px;
+    box-sizing: border-box;
+}
+#ok {
+    display: inline-block;
+    width: 200px;
+    height: 140px;
+    margin: 20px 0 20px 90px;
+    border-radius: 20px;
+    background: linear-gradient(to right, #48749a, #2b4358);
+    color: white;
+}
+.text::placeholder, #name::placeholder, #phone::placeholder, #mail::placeholder, #height::placeholder {
+    color: white;
+}
+.error {
+    border: 2px solid #F00;
+}
+.errmsg {
+    color: red;
+    position: absolute;
+    left: 200px;
+    margin-top: -29px;
+    width: 80px;
+    text-shadow: 0px 0px 2px #3b5d7b;
+}
+.errmsg2 {
+    color: red;
+    position: absolute;
+    left: 498px;
+    margin-top: -34px;
+    width: 259px;
+    text-shadow: 0px 0px 5px #35546f;
+}
